@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
 import {PiStudentBold} from 'react-icons/pi'
-import {FiUsers} from 'react-icons/fi'
+// import {FiUsers} from 'react-icons/fi'
 import {BiFolder} from 'react-icons/bi'
 
 const About = () => {
@@ -10,7 +10,6 @@ const About = () => {
     <section id='about'>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
-
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -26,11 +25,11 @@ const About = () => {
               <small> Junior Developpeur</small>
             </article>
 
-            <article className="about__card">
+            {/* <article className="about__card">
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
               <small>no one</small>
-            </article>
+            </article> */}
 
             <article className="about__card">
               <BiFolder className='about__icon'/>

@@ -34,6 +34,14 @@
 
 }
 
+p{
+    margin-bottom: 2rem;
+}
+
+.btn{
+    margin-right: 1.4rem;
+}
+
 /* ********** MEDIA QUERIES (MEDIUM DEVICES) ********** */
 
 @media screen and (max-width:1024px) {

@@ -14,22 +14,22 @@ const Contact = () => {
           <article className="contact__option">
           <AiOutlineMail className='contact__option-icon'></AiOutlineMail>
           <h4>Email</h4>
-          <h5>dummygator@gmail.com</h5>
-          <a href="hatanluc0@gmail.com"> Send a Message</a>
+          <h5>hatanluc0@outlook.fr</h5>
+          <a href="mailto:hatanluc0@outlook.fr"> Send a Message</a>
           </article>
 
           <article className="contact__option">
           <BsMessenger className='contact__option-icon'></BsMessenger>
           <h4>Messenger</h4>
-          <h5>hatanluc</h5>
-          <a href="https://www.facebook.com/"> Send a Message</a>
+          <h5>HA Tan Luc</h5>
+          <a href="https://m.me/tanluc.ha"> Send a Message</a>
           </article>
 
           <article className="contact__option">
           <AiOutlineMail className='contact__option-icon'></AiOutlineMail>
           <h4>Whatsapp</h4>
-          <h5>+00 000 000</h5>
-          <a href="https://www.whatsapp.com/?lang=fr_FR"> Send a Message</a>
+          <h5>06 03 77 81 52</h5>
+          <a href="https://api.whatsapp.com/send?phone=0603778152"> Send a Message</a>
           </article>
         </div>
         <form action="">
