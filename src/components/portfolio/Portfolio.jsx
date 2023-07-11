@@ -2,8 +2,8 @@ import React from 'react'
 import './portfolio.css'
 import {useState} from 'react'
 import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.png'
 
 
 const data= [
@@ -15,7 +15,8 @@ const data= [
     githubback:'',
     demo:'',
     technologie:'React Native , Redux, Express , Node JS ',
-    description:'Le projet Locapic est une application de géolocalisation réalisée lors de ma formation. Nous avons du utiliser divers technologie de react Native.'
+    description:"Le projet 'Locapic' est une application de géolocalisation réalisée lors de ma formation développeur web et application.Il a pour but d'enregister les différentes localisations de l'utilisateur.",
+    
   },
   {
     id:2,
@@ -25,17 +26,19 @@ const data= [
     githubback:'https://github.com/GitProjetHTL/how-are-you-backend',
     demo:'',
     technologie:' React Native , Redux, Express , Node JS ',
-    description:"Le projet How are you ? est une application qui a été réaliser en groupe pour la fin d'étude. Il a pour but de suivre la santé mentale des utilisateurs."
+    description:"Le projet 'How are you?' est une application qui a été réalisée en groupe en tant que projet de fin d'études. Il a pour but de contribuer à une meilleure santé mentale des utilisateurs.",
+    
   },
   {
     id:3,
     image:IMG3,
-    title:'Projet3',
-    github:'https://github.com',
-    githubback:'https://github.com/GitProjetHTL/Locapic',
-    demo:'',
+    title:'My moviz',
+    github:'https://github.com/GitProjetHTL/my-movies-frontend',
+    githubback:'https://github.com/GitProjetHTL/my-movies-backend',
+    demo:'https://frontend-mymoviz-hrh8.vercel.app/',
     technologie:' React , Redux, Express , Node JS',
-    description:''
+    description:"Le projet 'My moviz' est un site de streaming réalisé lors de ma formation développeur web et application. Il a pour but d'enregister les différents avis de l'utilisateur sur les derniers films sortis.",
+    
   }
   
 ]
@@ -61,9 +64,6 @@ const Portfolio = () => {
        {
         data.map(({id, image , title, github, demo, githubback, description, technologie}) =>{
           
-          
-
-           console.log(githubBackend)
           return(
             <article key={id} className="portfolio__item">
             <div className="portfolio__item-image">
@@ -76,10 +76,15 @@ const Portfolio = () => {
               <p>Technologie utilisées : {technologie}</p>
 
               
-              <a href={github} className='btn'>GitHub Frontend</a>
+              <a href={github} className='btn' target='_blanck'>GitHub Frontend</a>
               {githubBackend !== githubback && (
-                <a href={githubback} className='btn'>GitHub Backend</a>
+                <a href={githubback} className='btn' target='_blanck'>GitHub Backend</a>
               )}
+
+                {githubBackend !== demo && (
+                <a href={demo} className='btn' target='_blanck'>Demo</a>
+              )}
+
               <div className="portfolio__item-cta">
               {/* <a  href={demo} 
                   className='btn btn-primary'

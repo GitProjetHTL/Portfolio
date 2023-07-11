@@ -39,7 +39,10 @@ const About = () => {
             
           </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius doloribus, facere sequi commodi esse consequatur nisi fugit obcaecati numquam quod fugiat. Sed, voluptatem facilis illum provident a harum veniam natus.
+            Ayant développé une passion pour le développement depuis ces derniers
+            mois, je cherche une première expérience professionnelle pour mettre en
+            pratique les compétences que j'ai acquises lors de
+            ces derniers mois et apprendre le métier de développeur web.
             </p>
             <a href="#contact" className=' btn btn-primary'>Let's talk</a>
         </div>

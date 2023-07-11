@@ -32,12 +32,12 @@ const Contact = () => {
           <a href="https://api.whatsapp.com/send?phone=0603778152"> Send a Message</a>
           </article>
         </div>
-        <form action="">
+        {/* <form action="">
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" placeholder='Your message' rows="7"></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
-        </form>
+        </form> */}
       </div>
     </section>
   )

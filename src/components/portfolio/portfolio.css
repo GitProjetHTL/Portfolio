@@ -39,7 +39,9 @@ p{
 }
 
 .btn{
-    margin-right: 1.4rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    
 }
 
 /* ********** MEDIA QUERIES (MEDIUM DEVICES) ********** */

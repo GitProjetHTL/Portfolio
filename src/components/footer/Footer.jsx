@@ -19,11 +19,11 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       
-      <div className="footer__socials">
+      {/* <div className="footer__socials">
         <a href="https://facebook.com"><AiFillFacebook></AiFillFacebook></a>
         <a href="https://instagram.com"><AiOutlineInstagram></AiOutlineInstagram></a>
         <a href="https://twitter.com"><AiFillTwitterCircle></AiFillTwitterCircle></a>
-      </div>
+      </div> */}
 
       <div className="footer__copyright">
         <small>&copy; HA Tutorials. All rights reserved</small>
