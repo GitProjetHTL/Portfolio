@@ -24,7 +24,7 @@ const data= [
     title:'How are you ?',
     github:'https://github.com/GitProjetHTL/how-are-you-frontend',
     githubback:'https://github.com/GitProjetHTL/how-are-you-backend',
-    demo:'',
+    demo:'https://drive.google.com/file/d/1fnSvRFWmiB_KAXVmbUDzM2RKGxGS_AMh/view',
     technologie:' React Native , Redux, Express , Node JS ',
     description:"Le projet 'How are you?' est une application qui a été réalisée en groupe en tant que projet de fin d'études. Il a pour but de contribuer à une meilleure santé mentale des utilisateurs.",
     
