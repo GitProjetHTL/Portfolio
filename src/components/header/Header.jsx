@@ -10,15 +10,19 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello i'm</h5>
         <h1>HA Tan Luc</h1>
-        <h5 className="text-light">Developper web React</h5>
+        <h5 className="text-light">Developper web Junior</h5>
         <CTA></CTA>
-        <HeaderSocials></HeaderSocials>
+          <div className='content'>
 
-        <div className="me">
-          <img src={ME} alt="me" />
+            <HeaderSocials></HeaderSocials>
+            <div className="me">
+              <img src={ME} alt="me" />
+            </div>
+            <a href="#contact" className='scroll__down'>Scroll Down</a>
+          </div>
+         
         </div>
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
-      </div>
+
     </header>
   )
 }

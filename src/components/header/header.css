@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    padding-top:7rem;
+    padding-top:4rem;
     overflow: hidden;
 }
 
@@ -13,11 +13,20 @@ header{
 /* ********** CTA ********** */
 
 .cta{
-    margin: 3rem;
+    margin: 1rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
 }
+
+/* ********** content ********** */
+
+.content{
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
 
 /* ********** HeaderSocials ********** */
 
@@ -41,16 +50,13 @@ header{
 /* ********** ME ********** */
 
 .me{
-    background: var(--color-primary);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 5rem ; 
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
 
+.me img{
+    border-radius: 20px;
+    height: 35rem;
 }
 
 
@@ -69,10 +75,15 @@ header{
 /* ********** MEDIA QUERIES (MEDIUM DEVICES) ********** */
 
 @media screen and (max-width:1024px) {
-  header{
+  /* header{
     height: 68vh;
-  }
+  } */
+  .me img{
+    border-radius: 20px;
+    height: 35rem;
 }
+}
+
 
 /* ********** MEDIA QUERIES (SMALLDEVICES) ********** */
 
@@ -82,7 +93,13 @@ header{
     }
 
     .header__socials,.scroll__down {
-        display: none;
+        display: flex;
+
     }
+    .me img{
+        border-radius: 20px;
+        height: 40rem;
+    }
+
 }
 
