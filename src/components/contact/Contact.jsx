@@ -14,7 +14,7 @@ const Contact = () => {
           <article className="contact__option">
           <AiOutlineMail className='contact__option-icon'></AiOutlineMail>
           <h4>Email</h4>
-          <h5>hatanluc0@outlook.fr</h5>
+          <h5>hatanluc0 @outlook.fr</h5>
           <a href="mailto:hatanluc0@outlook.fr"> Send a Message</a>
           </article>
 

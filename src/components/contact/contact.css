@@ -35,6 +35,10 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+    max-width: 100%; 
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
 }
 
 /* ********** FORM ************ */
@@ -70,6 +74,10 @@ input, textarea{
     .container.contact__container{
         width: var(--container-widh-sm);
     }
-   
+   h5{
+    font-size: small;
+
+   }
+   h4{font-size: smaller;}
   }
   

@@ -44,10 +44,11 @@
     text-align: center;
 }
 
-.about__card:hover{
+.btn:hover{
     background: transparent ;
     border-color: var(--color-primary-variant);
     cursor: default;
+    color: var(--color-light);
 }
 
 .about__icon{
@@ -87,10 +88,35 @@
         margin: 1rem 0 1.5rem;
     }
   }
+
+
+  /* ********** HeaderSocials ********** */
+
+.header__socials{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left:0;    
+    bottom: 3rem;
+    padding-left: 20px;
+}
+
+.header__socials::after{
+    content:"";
+    width: 1px;
+    height: 2rem;
+   background: var(--color-primary);
+}
   
   /* ********** MEDIA QUERIES (SMALLDEVICES) ********** */
   
   @media screen and (max-width:600px) {
+    
+    .header__socials,.scroll__down {
+        display: flex;
+        position: relative;
+    }
 
     .about__me{
         width: 40%;

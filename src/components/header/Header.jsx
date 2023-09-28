@@ -2,7 +2,7 @@ import React from 'react'
 import "./header.css"
 import CTA from './CTA'
 // import ME from '../../assets/me.jpg'
-import HeaderSocials from './HeaderSocials'
+// import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
@@ -22,7 +22,7 @@ const Header = () => {
 </div> */}
          
         </div>
-<HeaderSocials></HeaderSocials>
+
 
     </header>
   )

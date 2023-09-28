@@ -13,7 +13,7 @@ const data= [
     title:'Locapic',
     github:'https://github.com/GitProjetHTL/Locapic',
     githubback:'',
-    demo:'',
+    demo:'https://drive.google.com/file/d/12WJs_sRZCCx7Byv6P-vRejdgZF7wJx3S/view?usp=sharing',
     technologie:'React Native , Redux, Express , Node JS ',
     description:"Le projet 'Locapic' est une application de géolocalisation réalisée lors de ma formation développeur web et application.Il a pour but d'enregister les différentes localisations de l'utilisateur.",
     

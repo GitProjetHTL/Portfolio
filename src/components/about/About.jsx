@@ -4,10 +4,12 @@ import ME from '../../assets/me-about.jpg'
 import {PiStudentBold} from 'react-icons/pi'
 // import {FiUsers} from 'react-icons/fi'
 import {BiFolder} from 'react-icons/bi'
+import HeaderSocials from './HeaderSocials'
 
 const About = () => {
   return (
     <section id='about'>
+      <HeaderSocials></HeaderSocials>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
@@ -34,7 +36,7 @@ const About = () => {
             <article className="about__card">
               <BiFolder className='about__icon'/>
               <h5>Projects</h5>
-              <small>10+ completed</small>
+              <small>5 + completed</small>
             </article>
             
           </div>
