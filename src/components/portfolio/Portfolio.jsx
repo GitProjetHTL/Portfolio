@@ -39,6 +39,18 @@ const data= [
     technologie:' React , Redux, Express , Node JS',
     description:"Le projet 'My moviz' est un site de streaming réalisé lors de ma formation développeur web et application. Il a pour but d'enregister les différents avis de l'utilisateur sur les derniers films sortis.",
     
+  },
+
+  {
+    id:3,
+    image:IMG3,
+    title:'Warhammer',
+    github:'https://github.com/GitProjetHTL/warhammer_frontend',
+    githubback:'https://github.com/GitProjetHTL/warhammer_backend',
+    demo:'https://warhammer-frontend.vercel.app/',
+    technologie:' React , Redux, Express , Node JS',
+    description:"Le projet 'Warhammer' est un de e market qui réalisé en 2 mois. Il a pour but d'enregister les différents produit de l'utilisateur dans un panier.",
+    
   }
   
 ]
