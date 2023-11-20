@@ -1,5 +1,5 @@
 header{
-    height: 30vh;
+    height: 40vh;
     padding-top:4rem;
     overflow: hidden;
 }
@@ -71,10 +71,7 @@ header{
 /* ********** MEDIA QUERIES (SMALLDEVICES) ********** */
 
 @media screen and (max-width:600px) {
-    header{
-        height: 30vh;
-    }
-
+   
     .me img{
         border-radius: 20px;
         height: 40rem;

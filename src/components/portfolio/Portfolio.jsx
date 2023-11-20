@@ -4,29 +4,20 @@ import {useState} from 'react'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
 
 
 const data= [
+ 
   {
-    id:1,
-    image:IMG1,
-    title:'Locapic',
-    github:'https://github.com/GitProjetHTL/Locapic',
-    githubback:'',
-    demo:'https://drive.google.com/file/d/12WJs_sRZCCx7Byv6P-vRejdgZF7wJx3S/view?usp=sharing',
-    technologie:'React Native , Redux, Express , Node JS ',
-    description:"Le projet 'Locapic' est une application de géolocalisation réalisée lors de ma formation développeur web et application.Il a pour but d'enregister les différentes localisations de l'utilisateur.",
-    
-  },
-  {
-    id:2,
-    image:IMG2,
-    title:'How are you ?',
-    github:'https://github.com/GitProjetHTL/how-are-you-frontend',
-    githubback:'https://github.com/GitProjetHTL/how-are-you-backend',
-    demo:'https://drive.google.com/file/d/1fnSvRFWmiB_KAXVmbUDzM2RKGxGS_AMh/view',
-    technologie:' React Native , Redux, Express , Node JS ',
-    description:"Le projet 'How are you?' est une application qui a été réalisée en groupe en tant que projet de fin d'études. Il a pour but de contribuer à une meilleure santé mentale des utilisateurs.",
+    id:4,
+    image:IMG4,
+    title:'Warhammer',
+    github:'https://github.com/GitProjetHTL/warhammer_frontend',
+    githubback:'https://github.com/GitProjetHTL/warhammer_backend',
+    demo:'https://warhammer-frontend.vercel.app/',
+    technologie:' React , Redux, Express , Node JS',
+    description:"Le projet 'Warhammer' est un de e-market qui pour but d'enregister les différents produit de l'utilisateur dans un panier.",
     
   },
   {
@@ -37,21 +28,33 @@ const data= [
     githubback:'https://github.com/GitProjetHTL/my-movies-backend',
     demo:'https://frontend-mymoviz-hrh8.vercel.app/',
     technologie:' React , Redux, Express , Node JS',
-    description:"Le projet 'My moviz' est un site de streaming réalisé lors de ma formation développeur web et application. Il a pour but d'enregister les différents avis de l'utilisateur sur les derniers films sortis.",
+    description:"Le projet 'My moviz' est un site de streaming qui permet d'enregister les différents avis de l'utilisateur sur les derniers films sortis.",
     
   },
 
   {
-    id:3,
-    image:IMG3,
-    title:'Warhammer',
-    github:'https://github.com/GitProjetHTL/warhammer_frontend',
-    githubback:'https://github.com/GitProjetHTL/warhammer_backend',
-    demo:'https://warhammer-frontend.vercel.app/',
-    technologie:' React , Redux, Express , Node JS',
-    description:"Le projet 'Warhammer' est un de e market qui réalisé en 2 mois. Il a pour but d'enregister les différents produit de l'utilisateur dans un panier.",
+    id:2,
+    image:IMG2,
+    title:'How are you ?',
+    github:'https://github.com/GitProjetHTL/how-are-you-frontend',
+    githubback:'https://github.com/GitProjetHTL/how-are-you-backend',
+    demo:'https://drive.google.com/file/d/1fnSvRFWmiB_KAXVmbUDzM2RKGxGS_AMh/view',
+    technologie:' React Native , Redux, Express , Node JS ',
+    description:"Le projet 'How are you?' est une application qui a but de contribuer à une meilleure santé mentale des utilisateurs.",
     
-  }
+  },
+  {
+    id:1,
+    image:IMG1,
+    title:'Locapic',
+    github:'https://github.com/GitProjetHTL/Locapic',
+    githubback:'',
+    demo:'https://drive.google.com/file/d/12WJs_sRZCCx7Byv6P-vRejdgZF7wJx3S/view?usp=sharing',
+    technologie:'React Native , Redux, Express , Node JS ',
+    description:"Le projet 'Locapic' est une application de géolocalisation qui a pour but d'enregister les différentes localisations de l'utilisateur.",
+    
+  },
+  
   
 ]
 
