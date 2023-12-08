@@ -5,9 +5,21 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
+import IMG5 from '../../assets/portfolio5.png'
 
 
 const data= [
+  {
+    id:5,
+    image:IMG5,
+    title:'Moderering.com',
+    github:'',
+    githubback:'',
+    demo:'https://www.moderering.com/',
+    technologie:' React , Vu, Boostrap, EmailJs',
+    description:"Site officiel de Moderering. Moderering est une start-up qui a pour but de révolutionner le monde de la modération. ",
+    
+  },
  
   {
     id:4,
@@ -65,6 +77,7 @@ const data= [
 
 const Portfolio = () => {
   const [githubBackend,setGithuBackend]=useState("");
+  
 
 
 
@@ -82,23 +95,29 @@ const Portfolio = () => {
           return(
             <article key={id} className="portfolio__item">
             <div className="portfolio__item-image">
-              <img src={image} alt={title} />
+              <img src={image} alt={title} className='img_portfolio' />
               </div>
               <h3>{title}</h3>
-    
-              <p>{description}</p>
+              <div className='content_portfolio'>
+                <p>{description}</p>
+              </div>
 
               <p>Technologie utilisées : {technologie}</p>
 
-              
-              <a href={github} className='btn' target='_blanck'>GitHub Frontend</a>
-              {githubBackend !== githubback && (
-                <a href={githubback} className='btn' target='_blanck'>GitHub Backend</a>
+              {githubBackend !== demo && (
+              <a href={demo} className='btn btn_Demo' target='_blanck'>Demo</a>
               )}
+              <div>
+                {github !== "" && (
+                  <a href={github} className='btn' target='_blanck'>GitHub Frontend</a>
+                )}
 
-                {githubBackend !== demo && (
-                <a href={demo} className='btn' target='_blanck'>Demo</a>
-              )}
+                {githubBackend !== githubback && (
+                  <a href={githubback} className='btn' target='_blanck'>GitHub Backend</a>
+                )}
+
+              </div>
+
 
               <div className="portfolio__item-cta">
               {/* <a  href={demo} 

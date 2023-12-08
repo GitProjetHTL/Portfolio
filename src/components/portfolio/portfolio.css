@@ -44,6 +44,15 @@ p{
     
 }
 
+.content_portfolio{
+    height: 20vh;
+}
+
+.img_portfolio{
+    
+    height: 300px;
+}
+
 /* ********** MEDIA QUERIES (MEDIUM DEVICES) ********** */
 
 @media screen and (max-width:1024px) {
