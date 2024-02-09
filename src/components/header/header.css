@@ -66,7 +66,7 @@ header{
     height: 35rem;
 }
 header{
-    height: 35vh;
+    height: 25%;
     padding-top:4rem;
     overflow: hidden;
 }
@@ -83,7 +83,7 @@ header{
     }
 
     header{
-        height: 30vh;
+        height: 30%;
         padding-top:4rem;
         overflow: hidden;
     }
