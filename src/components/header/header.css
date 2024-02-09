@@ -65,6 +65,11 @@ header{
     border-radius: 20px;
     height: 35rem;
 }
+header{
+    height: 35vh;
+    padding-top:4rem;
+    overflow: hidden;
+}
 }
 
 
@@ -76,6 +81,13 @@ header{
         border-radius: 20px;
         height: 40rem;
     }
+
+    header{
+        height: 30vh;
+        padding-top:4rem;
+        overflow: hidden;
+    }
+    
 
 }
 
